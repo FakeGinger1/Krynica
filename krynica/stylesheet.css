@@ -1,0 +1,76 @@
+
+body{
+    background-color: #2f4030;
+    padding-top: 75px;
+}
+@media (max-width: 979px){
+    body {
+      padding-top: 10px;
+    }
+}
+
+.navbar{
+    background-color: #2f4030;
+    padding-left: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f9ead7; 
+
+}
+
+
+.banner-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("panorama.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:1500px;
+    position: relative;
+}
+
+.banner-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f9ead7;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-title{
+    font-weight: bold;
+}
+
+.banner-country{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f9ead7; 
+}
+.banner-citation{
+    opacity: 0.80;
+    padding-left: 1%;
+    color: #7f7262;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #c8baa8;
+}
+
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #d6c7b5;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #d6c7b5;
+    font-weight: bold;
+}
+#main-text{
+    background-color: #405241;
+}
+.activities{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #c8baa8;
+}

@@ -4,31 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="stylesheet.css" rel="stylesheet" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Hobby website</title>
   </head>
   <body>
-    <h1>Krynica-Zdrój</h1>
-    <p>founded. 1547</p>
-    <p>Poland</p>
-    <h2>Bóg, Honor, Ojczyzna</h2>
-    <h3>There's snow place like these mountains.</h3>
-    <p>
-      If you're seeking for a vivid place to spend a serene weekend or few weeks
-      during any time of the year, then Krynica-Zdrój is a more niche
-      destination which will provide you with a beautiful glimpse into Polands
-      rich history.
-    </p>
-    <p>
-      Tucked in between the Beskids Sadeczki mountains of southern Poland, this
-      charming town offers:
-    </p>
-    <ol>
-      <li>Great winter sport facilities</li>
-      <li>Hiking and biking trails as well as picturesque walking paths</li>
-      <li>Mineral water houses</li>
-      <li>A tree-top path and 49.5 metre tower</li>
-      <li>Many historic museums.</li>
-    </ol>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+          <button
+            button
+            title="Expand navigation bar"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span></button
+          ><span class="navbar-brand">
+            <img
+              src="160px-POL_Krynica_COA.svg.png"
+              alt="Krynica-Zdrój Emblem"
+              style="width: 40px"
+            />
+          </span>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="visit.html">Visit</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <section class="banner-image">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banner-text">
+            <h1 class="banner-title">Krynica-Zdrój</h1>
+            <small class="text-mutes">founded. 1547</small>
+            <h2 class="banner-country">Poland</h2>
+            <h3 class="banner-slogan">
+              There's snow place like in these mountains.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <cite class="banner-citation">Image Creator: Henryk Bielamowicz, 29 May 2015. From Wikimedia Commons</cite>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"><br><h4>Why Krynica-Zdrój?</h4><br></div>
+        <div class="col"><br><h4>What Krynica-Zdrój Offers</h4><br></div>
+      </div>
+    </div>
+    
+    </div>
+    <div class="container-fluid" id="main-text">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>
+            If you're seeking for a vivid place to spend a serene weekend or few
+            weeks during any time of the year, then Krynica-Zdrój is a more
+            niche destination which will provide you with a beautiful glimpse
+            into Polands rich history.
+          </p>
+        </div>
+        
+        <div class="col-sm-6">
+          <p>
+            Tucked in between the Beskids Sadeczki mountains of southern Poland,
+            this charming town offers:
+          </p>
+          <ul class="activities">
+            <li>Great winter sport facilities</li>
+            <li>
+              Hiking and biking trails as well as picturesque walking paths
+            </li>
+            <li>Mineral water houses</li>
+            <li>A tree-top path and 49.5 metre tower</li>
+            <li>Many historic museums.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

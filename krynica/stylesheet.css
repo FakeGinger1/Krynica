@@ -1,76 +1,136 @@
-
-body{
-    background-color: #2f4030;
-    padding-top: 75px;
-}
-@media (max-width: 979px){
-    body {
-      padding-top: 10px;
-    }
+body {
+  background-color: #405241;
 }
 
-.navbar{
-    background-color: #2f4030;
-    padding-left: 2%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #f9ead7; 
-
+.navbar {
+  background-color: #405241;
+  padding-left: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #f9ead7;
 }
 
-
-.banner-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("panorama.jpg");
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:1500px;
-    position: relative;
+.banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("panorama.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  position: relative;
 }
 
-.banner-text{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #f9ead7;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.banner-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #f9ead7;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.banner-title{
-    font-weight: bold;
+.banner-title {
+  font-weight: bold;
 }
 
-.banner-country{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #f9ead7; 
+.banner-country {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #f9ead7;
 }
-.banner-citation{
-    opacity: 0.80;
-    padding-left: 1%;
-    color: #7f7262;
+
+.banner-citation {
+  opacity: 0.8;
+  padding-left: 1%;
+  color: #7f7262;
+  padding-bottom: 2%;
 }
-p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+
+.main-titles {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #d6c7b5;
+  font-weight: bold;
+  text-align: center;
+  background-color: #7f7262;
+}
+.main-text {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #d6c7b5;
+}
+.activities {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #c8baa8;
+}
+
+.history-banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("villa.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  position: relative;
+}
+
+.map-img {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #c8baa8;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visit-banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("WhatsApp\ Image\ 2022-10-27\ at\ 20.06.30.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  position: relative;
+}
+hr {
+  border-color: #c8baa8;
+  border-width: 5px;
+}
+.activity-images {
+  height: 90%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+    background-color: #7f7262;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     color: #c8baa8;
 }
-
-h4{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #d6c7b5;
-    font-weight: bold;
-    text-align: center;
-}
-
-h5{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #d6c7b5;
-    font-weight: bold;
-}
-#main-text{
+.btn-border{
     background-color: #405241;
+    border-color: #7f7262;
 }
-.activities{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #c8baa8;
+.btn-reveal{
+    background-color: #405241;
+    border-color: #7f7262;
+}
+
+.activity-citation {
+    opacity: 0.8;
+    color: #7f7262;
+    padding-bottom: 2%;
+    text-align: justify;
+  }
+
+iframe{
+  display: block;
+  margin: 0 auto;
+
 }

@@ -123,6 +123,7 @@ hr {
 }
 
 .activity-citation {
+   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     opacity: 0.8;
     color: #7f7262;
     padding-bottom: 2%;
@@ -132,5 +133,24 @@ hr {
 iframe{
   display: block;
   margin: 0 auto;
+  padding-bottom: 2%;
+  padding-top: 2%;
 
 }
+footer{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  color: #7f7262;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+h5{
+  text-align: center;
+  background-color: #7f7262;
+  color: #d6c7b5;
+}
+.references{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: small;
+}
+

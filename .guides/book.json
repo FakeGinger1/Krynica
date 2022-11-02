@@ -1,0 +1,17 @@
+{
+ "name": "Krynica",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "5d9fc7ea-ea28-a45f-3bf2-a00b639de1dc",
+   "pageId": "5d9fc7ea-ea28-a45f-3bf2-a00b639de1dc",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "9a39c8b1-bf74-6b20-d3b3-5468fbd37a82",
+   "pageId": "9a39c8b1-bf74-6b20-d3b3-5468fbd37a82",
+   "type": "page"
+  }
+ ]
+}

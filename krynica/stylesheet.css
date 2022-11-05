@@ -153,4 +153,58 @@ h5{
   padding-top: 2%;
   font-size: small;
 }
+.train-img{
+  width: 50%;
+  height: 50%;
+}
+
+.slide-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+.slide-citation{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%; 
+}
+
+.live-map{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.activity-text-titles{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #c8baa8;
+    font-weight: bold;
+}
+.funicular-train{
+  display: block;
+  margin: auto;
+  height: 55%;
+  width: 55%;
+}
+
+.main-text-mid{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #c8baa8;
+  text-align: center;
+  opacity: 0.8;
+}
+
 

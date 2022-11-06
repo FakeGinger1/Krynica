@@ -12,10 +12,10 @@ body {
 .banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("panorama.jpg");
-  height: 300px;
+  height: 30em;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size:  100em;
   position: relative;
 }
 
@@ -68,45 +68,27 @@ body {
 .history-banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("villa.jpg");
-  height: 300px;
+  height: 30em;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size:  100em;
   position: relative;
-}
-
-.map-img {
-  border-radius: 8px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #c8baa8;
-  max-width: 80%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .visit-banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("WhatsApp\ Image\ 2022-10-27\ at\ 20.06.30.jpg");
-  height: 300px;
+  height: 30em;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 100em;
   position: relative;
 }
 hr {
   border-color: #c8baa8;
   border-width: 5px;
 }
-.activity-images {
-  height: 90%;
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .btn{
     background-color: #7f7262;
@@ -122,31 +104,24 @@ hr {
     border-color: #7f7262;
 }
 
-.activity-citation {
+.citation {
    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     opacity: 0.8;
     color: #7f7262;
     padding-bottom: 2%;
-    text-align: justify;
   }
 
-iframe{
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 2%;
-  padding-top: 2%;
-
-}
 footer{
   padding-bottom: 2%;
   padding-top: 2%;
   color: #7f7262;
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
-h5{
+.cite-title{
   text-align: center;
   background-color: #7f7262;
   color: #d6c7b5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
 .references{
   padding-bottom: 2%;
@@ -190,14 +165,15 @@ h5{
 }
 .activity-text-titles{
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #c8baa8;
-    font-weight: bold;
+  color: #c8baa8;
+  font-weight: bold;
+  padding-bottom: 2%;
+  padding-top: 3%;
 }
 .funicular-train{
   display: block;
   margin: auto;
-  height: 55%;
-  width: 55%;
+  width: 100%;
 }
 
 .main-text-mid{
@@ -205,6 +181,29 @@ h5{
   color: #c8baa8;
   text-align: center;
   opacity: 0.8;
+}
+.index-img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.ski-img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+a{
+  color: #c8baa8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+a:hover{
+  color: #7f7262;
+}
+.nav-link{
+  color: #7f7262;
+}
+.nav-link:hover{
+  color: #c8baa8;
 }
 
 

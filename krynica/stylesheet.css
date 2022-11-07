@@ -9,7 +9,7 @@ body {
   color: #f9ead7;
 }
 
-.banner-image {
+.index-banner-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("panorama.jpg");
   height: 30em;
@@ -17,52 +17,6 @@ body {
   background-repeat: no-repeat;
   background-size:  100em;
   position: relative;
-}
-
-.banner-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #f9ead7;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.banner-title {
-  font-weight: bold;
-}
-
-.banner-country {
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #f9ead7;
-}
-
-.banner-citation {
-  opacity: 0.8;
-  padding-left: 1%;
-  color: #7f7262;
-  padding-bottom: 2%;
-}
-
-.main-titles {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #d6c7b5;
-  font-weight: bold;
-  text-align: center;
-  background-color: #7f7262;
-}
-.main-text {
-  padding-bottom: 2%;
-  padding-top: 2%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #d6c7b5;
-}
-.activities {
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #c8baa8;
 }
 
 .history-banner-image {
@@ -84,66 +38,95 @@ body {
   background-size: 100em;
   position: relative;
 }
+
+.banner-title {
+  font-weight: bold;
+}
+
+.banner-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #f9ead7;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-citation {
+  opacity: 0.8;
+  padding-left: 1%;
+  color: #7f7262;
+  padding-bottom: 2%;
+}
+
+.main-titles {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #d6c7b5;
+  font-weight: bold;
+  text-align: center;
+  background-color: #7f7262;
+}
+
+.main-text {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #d6c7b5;
+}
+
 hr {
   border-color: #c8baa8;
   border-width: 5px;
 }
 
-
-.btn{
-    background-color: #7f7262;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    color: #c8baa8;
-}
-.btn-border{
-    background-color: #405241;
-    border-color: #7f7262;
-}
-.btn-reveal{
-    background-color: #405241;
-    border-color: #7f7262;
+.funicular-img{
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 
-.citation {
-   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    opacity: 0.8;
-    color: #7f7262;
-    padding-bottom: 2%;
-  }
+.index-img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
 
-footer{
-  padding-bottom: 2%;
-  padding-top: 2%;
+.ski-img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+a{
+  color: #c8baa8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+a:hover{
+  color: #7f7262;
+}
+
+.nav-link{
   color: #7f7262;
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
-.cite-title{
-  text-align: center;
-  background-color: #7f7262;
-  color: #d6c7b5;
+
+.nav-link:hover{
+  color: #c8baa8;
+}
+.slide-citation{
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-}
-.references{
-  padding-bottom: 2%;
-  padding-top: 2%;
-  font-size: small;
-}
-.train-img{
-  width: 50%;
-  height: 50%;
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: smaller;
 }
 
 .slide-title{
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     opacity: 0.9;
     color: #ffffff;
-}
-
-.slide-citation{
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    opacity: 0.8;
-    color: #ffffff;
-    font-size: smaller;
 }
 
 .map-container {
@@ -163,47 +146,46 @@ footer{
   height: 100%;
   border: none;
 }
+
+.citation {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+   opacity: 0.8;
+   color: #7f7262;
+   padding-bottom: 2%;
+ }
+
+ footer{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  color: #7f7262;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+.cite-title{
+  text-align: center;
+  background-color: #7f7262;
+  color: #d6c7b5;
+}
+
+.references{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: small;
+}
+
+.train-img-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: #c8baa8;
+  text-align: center;
+  opacity: 0.8;
+}
+
 .activity-text-titles{
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
   color: #c8baa8;
   font-weight: bold;
   padding-bottom: 2%;
   padding-top: 3%;
-}
-.funicular-train{
-  display: block;
-  margin: auto;
-  width: 100%;
-}
-
-.main-text-mid{
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  color: #c8baa8;
-  text-align: center;
-  opacity: 0.8;
-}
-.index-img{
-  display: block;
-  margin: auto;
-  width: 100%;
-}
-.ski-img{
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-a{
-  color: #c8baa8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-}
-a:hover{
-  color: #7f7262;
-}
-.nav-link{
-  color: #7f7262;
-}
-.nav-link:hover{
-  color: #c8baa8;
 }
 
 

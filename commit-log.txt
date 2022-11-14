@@ -1,0 +1,83 @@
+commit cdd315803a91b76f05887c6b79a426023f0509df
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Thu Nov 10 15:14:10 2022 +0000
+
+    Final validation of all pages for HTML5 and stylesheet fos CSS
+
+commit df0e6c0278cdfb5709185570f70fc86706b73a4e
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 9 09:04:23 2022 +0000
+
+    Finished formating dates with the datetime attribute
+
+commit 57b4d09e13dae219e236bdbbecd137680fd66cc3
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Mon Nov 7 17:20:19 2022 +0000
+
+    Added challanges and design section to readme.md file
+
+commit c81c7def85cc3b8234f96b6fb0ad26da0b7b663f
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Mon Nov 7 16:30:33 2022 +0000
+
+    Finalised referencing
+
+commit 0b08b862541f184bd63ea6e585be19f8c57e13bd
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Mon Nov 7 11:20:57 2022 +0000
+
+    Changed body, nav-bar and background title colours
+
+commit e2ac21956f95a4140cf770b65fc6b2d890d67ccb
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Mon Nov 7 09:59:24 2022 +0000
+
+    Streamlined the styling by deleting redundent CSS
+
+commit 06e9ec17b461c319302c59fd3043cb62c7d23220
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Sun Nov 6 20:55:04 2022 +0000
+
+    Resized banners added images to index and visit.html, added text to left column of visit.html, changed link colours
+
+commit b7d6d51681421a217bcf2a58998375d79fc209a9
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Sat Nov 5 15:05:37 2022 +0000
+
+    Added image carousels to history.html
+
+commit dfb52edf6fab715aa3cac9bdefe95ccf6e3f1be9
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Sat Nov 5 12:26:10 2022 +0000
+
+    Made map responsive, Changed BS5 collapse on visit.html to BS5 nav with BS5 image carousel
+
+commit 9d6aadb5f63b47e8c0e7ef5eb0500729c9ec6f1a
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 2 20:29:58 2022 +0000
+
+    Added styled footer with citation list to all pages
+
+commit 6bd21d8d51f38c9022bcafdbf0589fa8cf35bc68
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 2 10:46:39 2022 +0000
+
+    Made pages responsive with BS5 grid system, added responsive map, streamlined the CSS styling, Added more raw text, added collapse element to visit page
+
+commit f8e59d5b8cca7935ba5e07572bcdbfa0fe679d9d
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 2 10:30:57 2022 +0000
+
+    Added basic CSS styling to pages, Linked BS5 and added navbar, added hero-banner
+
+commit 34b6fa70290ed28fc475f117c6092676b22fb082
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 2 10:18:05 2022 +0000
+
+    initial raw text formated as HTML
+
+commit 4891757f3c430b1696a33c2d62f5d41f95d52baf
+Author: Laura Orlowska <u02lo22@abdn.ac.uk>
+Date:   Wed Nov 2 10:13:49 2022 +0000
+
+    initial commit
